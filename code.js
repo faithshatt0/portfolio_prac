@@ -1,6 +1,6 @@
 // http://www.dte.web.id/2013/02/event-mouse-wheel.html
 
-(function() {
+(function() { 
     function scrollHorizontally(e) {
         e = window.event || e;
         var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
