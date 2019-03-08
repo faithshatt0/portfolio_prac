@@ -3,16 +3,22 @@
   padding:0;
 }
 
+#carousel {
+	width:200%; /* 500% = 100% x length of panel */
+	height:100%;
+    
+    overflow: hidden;
+    white-space:nowrap;
+}
+
+#carousel .panel {
+    display: inline-block;
+}
+
 html,
 body {
   height:100%;
   min-height:100%;
-}
-
-#page-content {
-  width:200%; /* 500% = 100% x length of panel */
-  height:100%;
-  overflow:hidden;
 }
 
 .panel {

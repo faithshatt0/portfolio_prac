@@ -8,7 +8,7 @@
 	</head>
 	
 	<body>
-		<div id="page-content">
+		<div id="carousel">
 			
 		    <div class="panel" id="panel-1">
 		        <div class="inside-panel">
